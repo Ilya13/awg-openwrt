@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "R24.11.11"
+          - tag: "24.11.11"
             pkgarch: aarch64_cortex-a53
             target: ipq95xx
             subtarget: generic
